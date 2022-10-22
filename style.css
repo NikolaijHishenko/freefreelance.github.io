@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+*{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    font-size: 24;
+}
+
+h2{
+    font-size: 40;
+    font-family: Iceland;
+    margin-bottom: 30;
+    flex: content;
+}
+
+h3{
+    background-color: rgb(255, 255, 255);
+}
+
+li{
+    background-color: rgb(255, 255, 255);
+}
+
+a{
+    text-decoration: none;
+    bottom: content;
+    flex: flex-end;
+}
+
+header{
+    padding: 10px 5%;
+    background-color: #028E9B;
+    color: rgb(0, 0, 0);
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.logoimg{
+    display: flex;
+    width: 80px;
+    height: 80px;
+}
+
+main{
+    background-image: url(/FREERELANCE/images/photo-1573703748442-3ba6f4203172.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 250px
+}
+
+footer{
+    background-color: #2B4281;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+    
+.buttonh{
+    margin-top: 20px;
+    background-color: #062270;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 15px;
+    align-items: flex-end;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    margin-right: 30px;
+    font-size: 22px;
+}
+
